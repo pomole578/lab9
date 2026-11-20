@@ -3,7 +3,7 @@
 name="$1"
 phone="$2"
 
-if [ ${#name} -ge 14 ]; then
+if [ ${#name} -ge 20 ]; then
     echo "PASS"
 else
     echo "FAIL"
